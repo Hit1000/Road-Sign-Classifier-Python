@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %} 🚦Road Sign Classification {% endblock %}
+
+{% block content %}
+<link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+
+<!-- <h1>Upload Traffic Signs</h1> -->
+
+<div style="display: flex;">
+    <h1>PREDICT</h1>
+    <!-- <button >upload</button> -->
+</div>
+<div>
+    <h1 class="sign">TRAFFIC SIGN</h1>
+</div>
+
+<div>
+
+
+    <div class="image-section" style="display:none;">
+        <div class="img-preview">
+            <div id="imagePreview">
+            </div>
+        </div>
+        <div class="spacing"></div>
+        <div class="align-self-center mx-auto">
+            <div class="dis-pre">
+                <h3>Prediction traffic sign is : </h3>
+            </div>
+            <h3 id="result">
+                <div></div>
+            </h3>
+        </div>
+    </div>
+    <div class="text-adj">
+        <!-- <button type="button" class="btn btn-primary btn-lg pb" id="btn-predict">Predict Traffic🚦 Signs</button> -->
+        <button type="button" class="btn btn-dark btn-lg pb" id="btn-predict">🔴⚪🟢</button>
+    </div>
+
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+        <div class="text-adj">
+            <label for="imageUpload" class="upload-label">
+                Upload
+            </label>
+        </div>
+    </form>
+
+
+    <div class="loader" style="display:none;"></div>
+
+</div>
+
+
+<!-- <h4 id="scrollspyHeading1">First heading</h4>
+<p>...</p>
+<h4 id="scrollspyHeading2">Second heading</h4>
+<p>...</p>
+<h4 id="scrollspyHeading3">Third heading</h4> -->
+
+
+
+{% endblock %}

@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(43, 42, 42);
+    color: #e6e6e6;
+
+}
+h1{
+    margin: 10px;
+    margin-bottom: 30px;
+    -webkit-text-size-adjust: 100%;
+    font-feature-settings: normal;
+    tab-size: 4;
+    --swiper-theme-color: #007aff;
+    font-family: Montserrat,sans-serif;
+    cursor: auto;
+    --tw-bg-opacity: 1;
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59,130,246,.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    margin: 0;
+    font-weight: 900;
+    --tw-text-opacity: 1;
+    color: rgb(212 118 18/var(--tw-text-opacity));
+    padding: .2rem;
+    line-height: 1;
+    font-size: 130px;
+}
+.sign{
+    -webkit-text-size-adjust: 100%;
+    font-feature-settings: normal;
+    tab-size: 4;
+    --swiper-theme-color: #007aff;
+    font-family: Montserrat,sans-serif;
+    cursor:auto;
+    --tw-bg-opacity: 1;
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    /* --tw-ring-color: rgba(59,130,246,.5); */
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    margin: 0;
+    white-space: nowrap;
+    font-weight: 900;
+    --tw-text-opacity: 1;
+    color: rgb(210 210 210/var(--tw-text-opacity));
+    padding: .5rem;
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.image-section{
+    margin-left: 200px;
+    display: flex;
+}
+.spacing{
+    padding:0 20vh;
+}
+.text-adj{
+    margin: 10px 260px;
+}
+.upload-label{
+    padding: 13 44px;
+
+}
+.pb{
+    background-color: #1b1b1b;
+    border-radius: 200px;
+    padding: 12 28px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.pb:hover{
+    background: rgb(68, 66, 66);
+    box-shadow: inset 140px 0 0 0 rgb(212 118 18);
+    color: black;
+}
+#result{
+    color: rgb(212 118 18);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2dcba7;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
